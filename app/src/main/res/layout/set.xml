@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="30dp"
+    android:paddingLeft="170dp"
+    >
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <Button 
+                android:id="@+id/set_button1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="参数设置"
+                />
+            
+        </TableRow>
+        
+        <TableRow android:paddingTop="20dp">
+            <Button 
+                android:id="@+id/set_button2"
+                android:layout_width="120dp"  
+                android:layout_height="50dp"
+                android:text="系统设置"
+                />
+            
+        </TableRow>
+        
+        <TableRow android:paddingTop="20dp">
+            <Button 
+                android:id="@+id/set_button3"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="返回"
+                />
+            
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp">
+    
+
+    
+    
+    
+    
+    <TableLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="200dp"
+	    android:stretchColumns="*"
+	    android:background="@drawable/text_listview_bg"
+	    >
+	    
+	 <TableRow android:background="@drawable/table_head"
+	     android:paddingTop="2dp">
+	        <TextView android:text="NO." 
+	            android:layout_width="40dp"
+       		    android:layout_height="40dp"
+       		    android:textSize="20sp"
+	            />
+	        <TextView android:text="编号" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />
+	        <TextView android:text="种类" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />
+	        <TextView android:text="时间" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />
+	        <TextView android:text="浓度" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />    
+	    </TableRow>
+	    
+			<ListView android:id="@+id/query_list_view"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+   				android:gravity="center_vertical"  
+				android:textSize="20sp"
+			    />	        
+	    
+	</TableLayout>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow 
+            android:paddingTop="6dp"
+            android:paddingLeft="60dp">
+            <Button 
+                android:id="@+id/query_button1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="清空"
+                />
+            <TextView 
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/query_button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="详情"
+                />
+            <TextView 
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/query_button3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="导出"
+                />
+            <TextView 
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/query_button4"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="返回"
+                />
+        </TableRow>
+	</TableLayout>
+</LinearLayout>

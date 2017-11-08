@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    >
+    
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="主波数:"
+                />
+            
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                />
+            
+             <TextView 
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+             
+             <TextView 
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="短波数:"
+                />
+             <TextView 
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                />
+        </TableRow>
+        
+        <TableRow android:paddingTop="10dp">
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="参考波数："
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                />
+            
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+             
+             <TextView 
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="长波数:"
+                />
+             <TextView 
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et4"
+                android:layout_width="100dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                android:layout_height="40dp"/>
+        </TableRow>
+    </TableLayout>
+     <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingTop="10dp">
+             <TextView 
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="主波背景偏移量："
+                />
+            <TextView 
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et5"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                />
+             <TextView 
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+            <TextView 
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="参考背景偏移量："
+                />
+            <TextView 
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_parameter_et6"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                />
+        </TableRow>
+	</TableLayout>
+	
+     <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow 
+            android:paddingTop="30dp"
+            android:paddingLeft="110dp">
+            <Button 
+                android:id="@+id/set_parameter_button1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="确定"
+                />
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/set_parameter_button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消"
+                />
+        </TableRow>
+	</TableLayout>
+
+</LinearLayout>

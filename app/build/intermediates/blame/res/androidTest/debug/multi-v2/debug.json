@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudio\\Raman\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\panda\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.4.1.aar\\c64af726cfeee13ad4042dbc3256eeae\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                }
+            ]
+        }
+    ]
+}

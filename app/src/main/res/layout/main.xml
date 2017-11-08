@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="100dp"
+    android:paddingTop="60dp" >
+    
+
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <Button 
+                android:id="@+id/main_button1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/main_button1"
+                />
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                />
+            <Button 
+                android:id="@+id/main_button2"
+                android:layout_width="120dp"  
+                android:layout_height="50dp"
+                android:text="@string/main_button2"
+                />
+            
+        </TableRow>
+        
+        <TableRow android:paddingTop="30dp">
+            <Button 
+                android:id="@+id/main_button3"
+                android:layout_width="120dp"  
+                android:layout_height="50dp"
+                android:text="@string/main_button3"
+                />
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                />
+            <Button 
+                android:id="@+id/main_button4"
+                android:layout_width="120dp"  
+                android:layout_height="50dp"
+                android:text="@string/main_button4"
+                />
+            
+        </TableRow>
+        
+        
+    </TableLayout>
+    
+   
+</LinearLayout>

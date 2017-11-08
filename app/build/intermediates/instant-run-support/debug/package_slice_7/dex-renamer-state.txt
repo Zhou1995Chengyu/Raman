@@ -1,0 +1,4 @@
+#Thu Nov 02 17:10:11 GMT+08:00 2017
+base.0=D\:\\AndroidStudio\\Raman\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+renamed.0=classes.dex
+file.0=D\:\\AndroidStudio\\Raman\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7\\classes.dex

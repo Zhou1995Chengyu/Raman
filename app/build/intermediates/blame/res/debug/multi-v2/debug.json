@@ -1,0 +1,106 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudio\\Raman\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudio\\Raman\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AndroidStudio\\Raman\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudio\\Raman\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AndroidStudio\\Raman\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudio\\Raman\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,95",
+                        "endColumns": "39,41",
+                        "endOffsets": "90,132"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudio\\Raman\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "137,180,233,278,323,369,414,460,504,547",
+                        "endColumns": "42,52,44,44,45,44,45,43,42,47",
+                        "endOffsets": "175,228,273,318,364,409,455,499,542,590"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudio\\Raman\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15,-1",
+                        "startColumns": "4,4,-1",
+                        "startOffsets": "192,526,-1",
+                        "endLines": "12,17,-1",
+                        "endColumns": "12,12,-1",
+                        "endOffsets": "485,683,-1"
+                    },
+                    "to": {
+                        "startLines": "14,21,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "595,887,1047",
+                        "endLines": "20,23,27",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "882,1042,1209"
+                    }
+                }
+            ]
+        }
+    ]
+}

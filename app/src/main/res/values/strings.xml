@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Raman</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="user_name">用户名:</string>
+	<string name="user_password">密  码:</string>
+	<string name="login_button1">登录</string>
+	<string name="login_button2">退出</string>
+	
+	<string name="main_button1">样品检测</string>
+	<string name="main_button2">图谱库</string>
+	<string name="main_button3">数据管理</string>
+	<string name="main_button4">注销</string>
+</resources>

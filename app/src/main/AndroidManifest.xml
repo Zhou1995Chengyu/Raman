@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raman"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" />
+
+    <!-- 权限:数据传输外接U盘 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--   权限:开机自启 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.raman.AdminLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /><!-- 程序入口 -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                    
+      	<activity
+            android:name=".Main"
+            android:label="主界面" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+      	<activity
+            android:name=".Check"
+            android:label="样品检测" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckChart"
+            android:label="样品检测" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Query"
+            android:label="数据管理" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Set"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetApp"
+            android:label="仪器设置" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetParameter"
+            android:label="参数设置" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".QueryChart"
+            android:label="数据管理" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".ChartLib"
+            android:label="图谱库" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".ChartLibQuery"
+            android:label="图谱库" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    
+    
+</manifest>

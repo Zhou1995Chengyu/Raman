@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+    android:paddingTop="2dp">
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+       <TableRow android:paddingLeft="20dp">
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="编号:"
+                />
+            <EditText
+                android:id="@+id/check_chart_et1"
+                android:layout_width="80dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:focusable="false"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="种类:"
+                />
+            <EditText
+                android:id="@+id/check_chart_et2"
+                android:layout_width="80dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:focusable="false"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />              
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="浓度:"
+                />
+            <EditText
+                android:id="@+id/check_chart_et3"
+                android:layout_width="80dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:focusable="false"
+                />
+        </TableRow>
+	</TableLayout>
+	
+    <LinearLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >    	
+            <LinearLayout
+                android:id="@+id/check_chart_linearLayout"
+                android:orientation="horizontal"
+                android:layout_width="480dp"
+                android:layout_height="170dp" />
+    </LinearLayout>
+    
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow 
+            android:paddingTop="8dp"
+            android:paddingLeft="60dp">
+            <Button 
+                android:id="@+id/check_chart_button1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="保 存"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/check_chart_button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="参数设置"
+                />    
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/check_chart_button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="返 回"
+                />
+        </TableRow>
+	</TableLayout>
+
+</LinearLayout>

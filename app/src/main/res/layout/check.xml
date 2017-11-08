@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="5dp"
+    android:paddingLeft="6dp"
+    >
+    
+
+	<TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="编号:"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                />
+            <EditText
+                android:id="@+id/check_et1"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:background="@drawable/textview_border"
+                />
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                />
+            <TextView 
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="种类:"
+                android:textSize="18sp"
+                />
+            
+            <Spinner
+                android:id="@+id/check_spinner1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                style="@style/spinner_style"
+                />
+        </TableRow>
+	</TableLayout>
+	<TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingTop="5dp">
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="积分时间:"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                />
+            <EditText
+                android:id="@+id/check_et2"
+                android:layout_width="100dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="s"
+                android:textSize="18sp"
+                />
+        </TableRow>
+	</TableLayout>
+	
+	<TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="5dp"
+        >
+        <TableRow android:paddingTop="5dp">
+            <TextView 
+                android:layout_width="185dp"
+                android:layout_height="30dp"
+                android:text="激光器输出功率百分比:"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/check_tv1"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:text="%"
+                android:textSize="18sp"
+                />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingTop="5dp">
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="延迟时间:"
+                android:textSize="18sp"
+                />
+            
+            <TextView
+                android:id="@+id/check_tv2"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:text="s"
+                android:textSize="18sp"
+                />
+        </TableRow>
+        <TableRow android:paddingTop="5dp">
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="平均次数:"
+                android:textSize="18sp"
+                />
+            
+            <TextView
+                android:id="@+id/check_tv3"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:text="次"
+                android:textSize="18sp"
+                />
+        </TableRow>
+	</TableLayout>
+	
+	<TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow >
+            
+            <ProgressBar
+		        android:id="@+id/progressBar1"
+		        style="?android:attr/progressBarStyleHorizontal"
+		        android:layout_width="470dp"
+		        android:layout_height="10dp" />
+        </TableRow>
+	</TableLayout>
+	<TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow 
+            android:paddingTop="10dp"
+            android:paddingLeft="60dp">
+            <Button 
+                android:id="@+id/check_button1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="检 测"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/check_button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="仪器设置"
+                />    
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/check_button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="返 回"
+                />
+        </TableRow>
+	</TableLayout>
+</LinearLayout>

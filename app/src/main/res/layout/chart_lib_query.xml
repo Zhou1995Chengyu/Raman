@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"   
+    android:paddingTop="2dp" >
+    
+
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingLeft="20dp">
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="名称:"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                />
+            <EditText
+                android:id="@+id/chart_lib_query_et1"
+                android:layout_width="100dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                />
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                />              
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="类别:"
+                />
+            <TextView 
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                />
+            <EditText
+                android:id="@+id/chart_lib_query_et2"
+                android:layout_width="100dp"
+                android:background="@drawable/textview_border"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                />
+        </TableRow>
+	</TableLayout>
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="6dp"
+        >    	
+            <LinearLayout
+                android:id="@+id/chart_lib_query_linearLayout"
+                android:orientation="horizontal"
+                android:layout_width="480dp"
+                android:layout_height="170dp" />
+    </LinearLayout>
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow 
+            android:paddingTop="4dp"
+            android:paddingLeft="80dp">
+            <Button 
+                android:id="@+id/chart_lib_query_button1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="删除"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/chart_lib_query_button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="导出"
+                />
+            <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/chart_lib_query_button3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="返回"
+                />
+        </TableRow>
+	</TableLayout>
+
+</LinearLayout>

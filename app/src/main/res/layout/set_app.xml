@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="80dp"
+    android:paddingTop="20dp"
+    >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        >
+        <TableRow android:paddingTop="10dp">
+            <TextView 
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="延迟时间："
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_app_et2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="3dp"
+                android:textSize="18sp"
+                android:background="@drawable/textview_border"
+                />
+        </TableRow>
+        
+        <TableRow android:paddingTop="10dp">
+            <TextView 
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="平均次数："
+                android:textSize="18sp"
+                />
+            <TextView 
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/set_app_et3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:textSize="18sp"
+                android:paddingLeft="3dp" >
+                <requestFocus />
+            </EditText>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:text="激光器输出功率百分比:"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:id="@+id/set_app_et1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/textview_border"
+                android:paddingLeft="3dp"
+                android:textSize="18sp"
+                />
+        </TableRow>
+    </TableLayout>
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingTop="30dp"
+            android:paddingLeft="50dp">
+            <Button 
+                android:id="@+id/set_app_button1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="确定"
+                android:textSize="20sp"
+                />
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+            <Button
+                android:id="@+id/set_app_button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消"
+                android:textSize="20sp"
+                />
+        </TableRow>
+	</TableLayout>
+</LinearLayout>

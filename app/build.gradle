@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "27.0.0"
+
+    defaultConfig {
+        applicationId "com.example.raman"
+        minSdkVersion 21
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/achartengine-1.2.0.jar')
+    compile 'org.litepal.android:core:1.4.1'
+    //compile 编译
+    implementation files('libs/jxl.jar')
+}

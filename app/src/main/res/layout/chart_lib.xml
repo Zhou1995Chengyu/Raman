@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        >
+        <TableRow android:paddingLeft="120dp">
+            
+            <EditText
+                android:id="@+id/check_chart_et1"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:background="@drawable/textview_border"
+                />
+              <TextView 
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                />
+             <Button 
+                android:id="@+id/chart_lib_button1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="查 询"
+                />
+    	</TableRow>
+    </TableLayout>
+    
+    
+    
+    
+     <TableLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="160dp"
+	    android:stretchColumns="*"
+	    android:background="@drawable/text_listview_bg"
+	    >
+	    
+	 <TableRow android:background="@drawable/table_head">
+	        <TextView android:text="NO." 
+	            android:layout_width="40dp"
+       		    android:layout_height="40dp"
+       		    android:textSize="20sp"
+	            />
+	        <TextView android:text="名称" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />
+	        <TextView android:text="分类" 
+	            android:layout_width="100dp"
+       			android:layout_height="40dp"
+       			 android:textSize="20sp"
+	            />
+	    </TableRow>
+	    
+			<ListView android:id="@+id/list_chart_view"
+			    android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+   				android:gravity="center_vertical"  
+				android:textSize="20sp"
+			    />	        
+	    
+	</TableLayout> 
+    
+    
+    
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		
+        >
+       	<TableRow 
+            android:paddingTop="8dp"
+            android:paddingLeft="100dp">
+            <Button 
+                android:id="@+id/chart_lib_button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="详 情"
+                />
+            <TextView 
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                />
+           
+            <Button
+                android:id="@+id/chart_lib_button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="返 回"
+                />
+        </TableRow>
+	</TableLayout>
+
+</LinearLayout>
